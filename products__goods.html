@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <header class="header catalog__header">
+        <div class="container">
+            <div class="header__menu">
+                <nav class="menu">
+                    <div class="menu__logo">
+                        <a class="menu__burger">
+                            <span></span>
+                            <span class="menu__b"></span>
+                            <span></span>
+                        </a>
+                        <nav class="header__burger-menu">
+                            <div class="menu__logo burger">
+                                <a class="menu__burger">
+                                    <span class="menu__a"></span>
+                                    <span></span>
+                                    <span class="menu__c"></span>
+                                </a>
+                                <div class="menu__catalog">Каталог</div>
+                            </div>
+                            <ul class="header__lists">
+                                <li>
+                                    <a class="header__list" href="#">Автостекла
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Ароматизаторы</a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Аксессуары по в багажник
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Аксессуары</a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Каталоги для авто
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Коврики для автомобильные
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Светотехника и автолампы
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Средства защиты
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Стеклоочестители и щетки
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Технические жидкости
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Торцевой инструмент
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Шины и диски
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Электроника
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Детские кресла
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="header__list" href="#">Оплетки на руль
+                                        <img src="images/arrow.svg" alt="">
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </nav>
+                        <div class="menu__catalog">Каталог</div>
+                    </div>
+                    <div class="menu__contacts">
+                        <a class="menu__contact" href="#">Доставка и оплата</a>
+                        <a class="menu__contact contact" href="#">Контакты</a>
+                    </div>
+                </nav>
+                <a class="logo" href="#"><img class="logo logoproduct" src="images/logo.png" alt="logo"></a>
+                <nav class="nav__menu-link">
+                    <input class="input" type="text" placeholder="Введите название или номер товара">
+                    <div class="search">
+                        <a class="search__links search-sircle" href="#"><img src="images/nav/cart.png" alt=""></a>
+                        <button class="search__links search__link man__btn" href="#"><img src="images/nav/man.png"
+                                alt=""></button>
+                        <!--модальное окно-->
+
+                        <div class="modal-auth is-open">
+                            <div class="modal-dialog modal-dialog-auth modal__first">
+                                <button class="close-auth"><img src="images/svg/close.svg" alt=""></button>
+                                <form id="logInForm">
+                                    <fieldset class="modal-body">
+                                        <label class="label-auth">
+                                            <span>Логин</span>
+                                            <input id="login" type="text">
+                                        </label>
+                                        <label class="label-auth">
+                                            <span>Пароль</span>
+                                            <input id="password" type="password">
+                                        </label>
+                                    </fieldset>
+                                    <!-- /.modal-body -->
+                                    <div class="modal-footer">
+                                        <div class="footer-buttons">
+                                            <button class="button button-primary button-login"
+                                                type="submit">Войти</button>
+                                        </div>
+                                        <div class="modal__links">
+                                            <a class="modal__link modal__a" href="#">Забыли пароль?</a>
+                                            <a class="modal__link" href="#">Регистрация</a>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- /.modal-footer -->
+                            </div>
+                            <!-- /.modal-dialog -->
+                        </div>
+                        <!--submodal-->
+
+                        <div class="modal-auth is-opened">
+                            <div class="modal-dialog modal-dialog-auth">
+                                <button class="close-auth"><img src="images/svg/close.svg" alt=""></button>
+                                <div class="auth__wrapper">
+                                    <div class="auth__img"><img src="" alt=""></div>
+                                    <div class="auth__descr">
+                                        <div class="auth__descr-title">Дамир Болатович</div>
+                                        <div class="auth__balance">Баланс: 5 000 тенге</div>
+                                    </div>
+                                </div>
+                                <ul class="auth__choice">
+                                    <li><a href="#">VIN запросы</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                    <li><a href="#">Блокнот</a></li>
+                                    <li><a href="#">Заказы</a></li>
+                                    <li><a href="#">Гараж</a></li>
+                                </ul>
+                                <a class="auth__exit" href="#">Выйти из аккаунта</a>
+                                <!-- /.modal-footer -->
+                            </div>
+                        </div>
+                        <!-- /.modal-dialog -->
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+   <section class="products__goods-card">
+       <div class="container">
+       <div class="products__goods-block_wrapper">
+        <div class="products__goods-block">
+           <div class="products_big-img">
+               <img src="images/card__items/card-item.png" alt="">
+           </div>
+           <div class="products_small-imgs">
+            <img src="images/card__items/card-item1.png" alt="">
+            <img src="images/card__items/card-item1.png" alt="">
+            <img src="images/card__items/card-item1.png" alt="">
+           </div>
+       </div>
+       <div class="products__descr-block">
+           <div class="products__descr-block_title">Масло  Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ 5л по цене 4л MOBIL 155145</div>
+           <div class="products__descr-cost">2 500 тенге</div>
+           <span>Срок поставки: 2 дня</span>
+           <span>Артикул: 154264</span>
+           <div class="products__descr-name">Описнаие: </div>
+           <div class="descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. A, mattis enim ultricies nibh. Enim maecenas mauris, natoque vitae in. Vivamus lectus nunc egestas sit sagittis nunc. In consectetur urna mattis leo nec vel curabitur ullamcorper. Mattis cras tellus laoreet porta duis facilisis arcu. Massa, molestie eu ac, morbi placerat turpis consectetur sit. Cursus dolor id a justo mattis. Fames mauris ut amet elit nascetur. Fermentum in tellus risus, iaculis sed fermentum nulla quis tellus.</div>
+           <div class="descr_characteristic">
+               <div class="descr_text">Характеристики</div>
+               <div class="descr_text">Замена</div>
+           </div>
+           <div class="descr-bottom">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Adipiscing volutpat luctus odio sit dapibus sodales vitae maecenas bibendum. Pulvinar interdum et sit blandit scelerisque. Aliquam, venenatis elementum eget sed mauris elit elit. Lacus, eget porta purus velit urna diam volutpat, mauris scelerisque. In sit consequat non eget nibh elit non convallis ante. Volutpat et gravida iaculis elit. Elit felis a, enim tortor. At in a, pharetra, diam ut id eget. Nisi, malesuada lacinia tortor ac.
+           </div>
+     </div>
+     </div>
+    </div>
+   </section>
+       <section class="products">
+        <div class="container">
+            <div class="products__title">
+                <h3>Похожие товары</h3>
+            </div>
+            <div class="products__title-bg">Похожие товары</div>
+            <div class="products__items">
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="products__item itemfirst">
+                    <div class="products__item-inner">
+                        <div class="product__item-block">
+                            <div class="product__item-img">
+                                <img src="images/item.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="product__item-block_descr">
+                            <div class="product__item-title">Масло Mobil 1 ESP 5W30 синтетическое 5л АКЦИЯ
+                                5л по цене 4л MOBIL 155145</div>
+                            <div class="product__cost">2 500 тенге</div>
+                            <p class="product__descr">Срок поставки: 2 дня</p>
+                            <p class="product__descr">Артикул: 154264</p>
+                        </div>
+                        <div class="product__item-block">
+                            <button class="button-btn product__btn">Количество</button>
+                            <button class="button-btn product__btn-red">Купить</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <footer>
+        <div class="footer__top">
+            <div class="container">
+                <div class="footer__top-title">Остались вопросы?</div>
+                <div class="footer__top-subtitle">Оставьте заявку и получите бесплатную консультацию</div>
+                <form class="footer__form">
+                    <fieldset class="modal-body modal-footer">
+                        <label class="label-auth label-auth__footer">
+                            <span>Введите Ваше имя</span>
+                            <input id="login login__footer" type="text">
+                        </label>
+                        <label class="label-auth label-auth__footer">
+                            <span>Введите Ваш телефон</span>
+                            <input id="number tel__footer" type="tel">
+                        </label>
+                    </fieldset>
+                    <div class="btn-wrapper">
+                        <div class="button1__footer">Оставить</div> <button type="submit"
+                            class="button-primary catalog-btn footer__btn">заявку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-inner">
+                    <div class="footer__bottom-block1">
+                        <img class="footer__block1-img" src="images/svg/Autohub.svg" alt="Autohub">
+                        <div class="footer__bottom-links">
+                            <a href="#"><img src="images/svg/Vector__footer.svg" alt=""></a>
+                            <a href="#"><img src="images/svg/vk__footer.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer__bottom-block2">
+                        <ul>
+                            <li><a href="#">
+                                    <img src="images/social__footer/address.svg" alt="">
+                                    Нур-Султан ул. Сатпаева 27 ТД "Автосити"
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/social__footer/call.svg" alt="tel">
+                                    +7(777)050-43-50
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/social__footer/email.svg" alt="">
+                                    info@autohub.kz
+                                </a></li>
+                            <li><a href="#">
+                                    <img src="images/social__footer/clock .svg" alt="">
+                                    с 10:00 до 20:00
+                                </a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__map">
+                        <img class="footer__map-img" src="images/map.png " alt="map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
