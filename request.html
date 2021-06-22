@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+
+    <section class="request">
+        <div class="request__head">
+            <img class="close-svg close-svg_head" src="images/svg/close.svg" alt="">
+            <div class="request__title">Отправка запроса по VIN</div>
+            <div class="request__choice">
+                <a href="http://127.0.0.1:5500/car__request.html">Выбрать автомобиль</a>
+                <a href="#">Ввести данные</a>
+            </div>
+            <div class="request__blocks">
+                <div class="request__block block__choice">
+                   
+                    <form id="logInForm">
+                        <fieldset class="modal-body">
+                            <label class="label-auth login-choice">
+                                <span>VIN/Frame код</span>
+                                <input id="login" type="num" placeholder="+7 777 666 55 44">
+                            </label>
+                            <label class="label-auth login-choice">
+                                <span>Марка</span>
+                                <select class="label-auth-select">
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </label>
+                            <label class="label-auth login-choice">
+                                <span>Модель</span>
+                                <select class="label-auth-select">
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </label>
+                            <label class="label-auth login-choice">
+                                <span>Обьем двигателя и мощность</span>
+                                <select class="label-auth-select">
+                                    <option></optiolabel-auth-select>
+                                    <option></option>
+                                </select>
+                            </label>
+                            <label class="label-auth login-choice">
+                                <span>Год выпуска автомобиля</span>
+                                <select class="label-auth-select last">
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </label>
+                        </fieldset>
+                </form>
+                </div>
+                <div class="request__block second__block">
+                <form action="">
+                    <label class="request__block-input">
+                        <span>Название детали</span>
+                        <input id="login" type="text">
+                    </label>
+                    <label class="request__block-input input-textarea">
+                        <span>Ваш комментарии</span>
+                       <textarea class=""></textarea>
+                    </label>
+                    <div class="request-btn">
+                        <div class="request_footer">Отправить</div> <button type="submit"
+                            class="request-footer__btn">VIN запрос</button>
+                    </div>
+                </form>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
